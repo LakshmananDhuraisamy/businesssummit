@@ -3403,6 +3403,149 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+/* =============================
+   TOP BAR (WRAP SECTION)
+============================= */
+.wrap {
+   
+    padding: 8px 0;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    color: #fff;                  /* Make all text white */
+}
+
+/* Phone text */
+.wrap .phone {
+    color: #fff;
+}
+
+.wrap .phone .mailus {
+    font-weight: 600;
+    color: #fff;
+}
+
+.wrap .phone a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrap .phone a:hover {
+    text-decoration: underline;
+}
+
+/* =============================
+   SOCIAL ICONS
+============================= */
+.wrap .social-media a {
+    width: 32px;
+    height: 32px;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    display: flex;
+    
+    justify-content: center;
+    margin-left: 6px;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.wrap .social-media a:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Buy Ticket button */
+.wrap .btn-primary {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.wrap .btn-primary:hover {
+    background: #f1f1f1;
+}
+
+/* ==============================
+   NAVBAR INITIAL (OVER HERO)
+============================== */
+#ftco-navbar {
+    width: 100%;
+    padding: 18px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    margin-top:10px ;
+    padding-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: rgba(255,255,255,0); /* transparent */
+    color: #fff;
+    transition: all 0.4s ease;      /* smooth scroll effect */
+}
+
+/* Logo & links initial */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;   /* white text over hero */
+}
+
+/* Menu */
+.navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+/* Hover & active */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: #00bfff !important;
+}
+
+/* SCROLLED NAVBAR */
+#ftco-navbar.scrolled {
+    background: #fff;         /* white background */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* subtle shadow */
+    transition: all 0.4s ease;
+}
+
+#ftco-navbar.scrolled .navbar-brand,
+#ftco-navbar.scrolled .navbar-nav .nav-link {
+    color: #000 !important;   /* black text */
+}
+
+/* MOBILE */
+@media (max-width: 992px) {
+    #ftco-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 20px;
+    }
+    .navbar-nav {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
 
 /* ---------- Hero Section ---------- */
 .hero-wrap{
@@ -3527,12 +3670,14 @@ textarea.form-control {
 .why-section .subheading {
   display: block;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #333;
+  margin-top: 30px;     /* added */
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
+
 
 .why-section .heading p {
   font-size: 16px;
@@ -3540,6 +3685,7 @@ textarea.form-control {
   color: #111;
   font-weight: 300;
   margin: 0 auto;
+  text-align: justify;
 }
 
 /* Cards Grid */
@@ -3584,13 +3730,22 @@ textarea.form-control {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .why-section {
-    padding: 40px 15px;
+    padding: 10px 15px 0 15px; /* removed bottom padding */
+    margin-bottom: 0;          /* remove any extra bottom margin */
   }
+  
   .why-section .heading p {
     font-size: 14px;
+    margin-bottom: 0;           /* remove bottom margin */
   }
+  
   .cards-grid {
     gap: 15px;
+    margin-bottom: 0;           /* remove extra space below grid */
+  }
+  
+  .cards-grid > *:last-child {
+    margin-bottom: 0;           /* ensure last card has no bottom margin */
   }
 }
 
@@ -3701,29 +3856,108 @@ textarea.form-control {
   transition: all 0.3s ease;
 }
 
-/* Responsive */
+/* Remove default list spacing */
+.program-list {
+  list-style: none; /* remove bullets */
+  margin: 0;        /* remove default margin */
+  padding: 0;       /* remove default padding */
+}
+
+/* Mobile Responsive */
 @media (max-width: 768px) {
-  .main-heading { font-size: 36px; }
-  .program-item { grid-template-columns: 50px 1fr; padding: 12px; }
-  .item-number { font-size: 22px; }
-  .item-text { font-size: 16px; }
+  .main-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .program-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    padding: 8px;
+    gap: 8px;
+  }
+  .item-number {
+    font-size: 22px;
+    margin: 0;
+  }
+  .item-text {
+    font-size: 16px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 480px) {
-  .main-heading { font-size: 28px; }
-  .program-item { grid-template-columns: 1fr; padding: 8px; }
-  .item-number { font-size: 18px; margin-bottom: 4px; }
-  .item-text { font-size: 14px; }
-}
-
-/* Print Mode */
-@media print {
+  .main-heading {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
   .program-item {
-    background: transparent;
-    border: 1px solid #000;
-    color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 6px;
+    gap: 4px;
+    text-align: left;
+  }
+  .item-number {
+    font-size: 20px;
+    text-align: left;
+    margin: 0 0 2px 0;
+  }
+  .item-text {
+    font-size: 14px;
+    margin: 0;
   }
 }
+
+/* Optional: ensure container has no extra padding */
+.offer-section .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 36px;
+    margin-top: 0;       /* remove top margin */
+    margin-bottom: 20px; /* spacing below */
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 28px;
+    margin-top: 0;       /* remove top margin */
+    margin-bottom: 16px; /* spacing below */
+  }
+}
+
+/* Reset all top spacing for the offer section */
+.offer-section,
+.offer-section .container,
+.offer-section .heading-wrapper,
+.offer-section .subheading,
+.offer-section .main-heading {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  line-height: normal; /* optional, remove extra spacing */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .offer-section .main-heading {
+    font-size: 36px;
+    margin-top: 0 !important;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .offer-section .main-heading {
+    font-size: 28px;
+    margin-top: 0 !important;
+    margin-bottom: 12px;
+  }
+}
+
 
 .ftco-section {
   padding: 40px 10px;
@@ -4235,129 +4469,117 @@ p {
   .button-cta { width: 100%; max-width: 260px; }
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
 /*About */
 
-/* ---------- Hero Section ---------- */
 .hero {
+  padding: 40px;
+  background: linear-gradient(135deg, #f7f9fc, #eef2f6);
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: center; /* center hero content */
 
-  height: 90vh;
-  background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%);
-  color: #fff;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 0 20px;
   position: relative;
   overflow: hidden;
+  min-height: 90vh;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  text-align: center; /* center all text inside */
 }
 
-/* Background animation */
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
-  animation: rotateBg 30s linear infinite;
-  z-index: 0;
-}
-
-@keyframes rotateBg {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Hero Content */
+/* Content centered */
 .hero-content {
+  max-width: 800px;
+  width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+margin-top: 90px;
+  
+  text-align: center; /* everything centered */
+}
+
+.hero .hero-content h1 {
+  font-size: 39px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Paragraph center */
+.hero-content p {
+  font-size: 17px;
+  color: #3f4a57;
+  line-height: 1.6;
+  margin: 0 auto 16px auto; /* centers block element */
+  text-align: center;
+  max-width: 70ch; /* readable line length */
+  text-align: justify;
+  padding-left: 40px;
+}
+
+
+/* Subtle floating background shape */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 300px;
+  height: 300px;
+  background: rgba(150, 170, 200, 0.15);
+  border-radius: 50%;
+  filter: blur(40px);
+  animation: float-bg 7s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+@keyframes float-bg {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(25px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+     padding: 40px;
+  background: linear-gradient(135deg, #f7f9fc, #eef2f6);
+ 
 
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;      
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
 
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;              
-  text-align: left;             
-}
-
-.hero-content h1 {
-  font-size: 2.6rem;
-  line-height: 1.2;
-  font-weight: 800;
-  margin: 100px 0 25px 0;
-  text-align: center;
-
-  max-width: 800px;
-  color: #fff;
-  -webkit-text-stroke: 0.5px rgba(255,255,255,0.2);
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeInUp 1.5s ease-out forwards 0.5s;
-}
-
-.hero-content p {
-  font-size: 1.3rem;
-  line-height: 2;
-  max-width: 700px;
-
-  margin: 0 auto 15px auto;   /* center the whole paragraph block */
-  padding-left: 30px;         /* left padding inside */
-  text-align: left;           /* left text alignment */
-
-  color: #ccc;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1.5s ease-out forwards 1s;
-}
-
-
-/* Fade animation */
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Hover effects */
-.hero-content h1:hover {
-  color: #f5f5f5;
-  -webkit-text-stroke: 0.8px rgba(255,255,255,0.4);
-  transition: all 0.6s ease;
-}
-
-.hero-content p:hover {
-  color: #fff;
-  transition: all 0.6s ease;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-  .hero {
-    height: auto;
-    padding: 20px 20px;
-    overflow: visible;
-  }
-
-  .hero-content {
-    align-items: flex-start;   /* ← still left aligned */
-    text-align: left;          /* ← text left */
-    margin-top: 0 !important;
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
   }
 
   .hero-content h1 {
-    margin-top: 0 !important;
-     font-size: 2rem;
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
   }
 }
+
+
+
 
 /* Section Base */
 .philosophy {
