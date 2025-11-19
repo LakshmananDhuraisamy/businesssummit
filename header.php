@@ -1,9 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})
+(window,'G-SEKJ4E9T4H','google_tags_first_party');</script><script async src="/s9cc/"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('set', 'developer_id.dYzg1YT', true);
+				gtag('config', 'G-SEKJ4E9T4H');
+			</script>
 			
-	<title></title>
+	<title>Convention - Free Bootstrap 4 Template by Colorlib</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,10 +27,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
 	<link rel="stylesheet" href="css/flaticon.css">
-
-     <link rel="stylesheet" href="css/style.css">
-
-
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -48,28 +52,24 @@
 		</div>
 	</div>
 
-	
-<nav class="navbar navbar-expand-lg navbar-dark" id="ftco-navbar">
-    <div class="container-fluid"> <!-- Use container-fluid to take full width -->
-        <a class="navbar-brand" href="index">Convention</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Convention</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="index">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="retreats">Retreats</a></li>
-                <li class="nav-item"><a class="nav-link" href="affirmation-technique">Affirmation Technique</a></li>
-                <li class="nav-item"><a class="nav-link" href="communities">Communities</a></li>
-                <li class="nav-item"><a class="nav-link" href="opportunities">Opportunities</a></li>
-                <li class="nav-item"><a class="nav-link" href="events">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-	
-<!-- END nav -->
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+					<li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
+					<li class="nav-item"><a href="speaker.html" class="nav-link">Speakers</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
