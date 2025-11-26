@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
 
 <!-- Hero Section -->
-<section class="hero">
+
+<section class="entrepreneurs-hero">
   <div class="hero-content">
     <h1>The Movement That Is Transforming India's Entrepreneurs</h1>
     <p>Happy Human Hub is a national initiative designed to bring mindset transformation, business clarity, and emotional strength to every individual who dreams of building a successful life.</p>
