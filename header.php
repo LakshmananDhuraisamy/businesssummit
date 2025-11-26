@@ -10,7 +10,7 @@
 				gtag('config', 'G-SEKJ4E9T4H');
 			</script>
 			
-	<title>Convention - Free Bootstrap 4 Template by Colorlib</title>
+	<title>UPLIFT</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -53,23 +53,26 @@
 	</div>
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Convention</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
+  <div class="container">
+    <a class="navbar-brand" href="index">Business</a>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-					<li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-					<li class="nav-item"><a href="speaker.html" class="nav-link">Speakers</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+      aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="index" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="retreats" class="nav-link">Retreats</a></li>
+        <li class="nav-item"><a href="affirmation-technique" class="nav-link">Affirmation Technique</a></li>
+        <li class="nav-item"><a href="communities" class="nav-link">Communities</a></li>
+        <li class="nav-item"><a href="opportunities" class="nav-link">Opportunities</a></li>
+        <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
+        <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	<!-- END nav -->

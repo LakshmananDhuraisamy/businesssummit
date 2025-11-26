@@ -1,264 +1,69 @@
 <?php include 'header.php'; ?>
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text align-items-end">
-				<div class="col-md-9 ftco-animate pb-5">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
-					<h1 class="mb-0 bread">Our Blog</h1>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-7">
-					<div class="row d-flex">
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
+ <!-- ===== Hero / Intro Section ===== -->
+<section class="mission-intro py-5">
+  <div class="container text-center">
+    <h2 class="main-heading">Rise With Us. Impact India. Transform Lives.</h2>
+    <p class="subheading">We welcome passionate individuals, colleges, companies and organizations to join our mission.</p>
+  </div>
+</section>
 
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_5.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ftco-animate">
-							<div class="blog-entry">
-								<a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
-								</a>
-								<div class="text d-block text-center">
-									<div class="meta">
-										<p>
-											<a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 04, 2020</a>
-											<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-											<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-										</p>
-									</div>
-									<h3 class="heading"><a href="#">Applying your design principles</a></h3>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row mt-5">
-						<div class="col">
-							<div class="block-27">
-								<ul>
-									<li><a href="#">&lt;</a></li>
-									<li class="active"><span>1</span></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a href="#">&gt;</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+<!-- ===== Available Opportunities Section ===== -->
+<section class="available-opportunities py-5">
+  <div class="container">
+    <h3 class="section-title text-center">Available Opportunities</h3>
+    <ul class="opportunity-list text-center list-unstyled">
+      <li>City Coordinator</li>
+      <li>Event Volunteer</li>
+      <li>Speaker/Trainer</li>
+      <li>Affiliate Partner</li>
+      <li>College Ambassador</li>
+      <li>Corporate Partner</li>
+      <li>Community Leader</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Why Partner With Us Section ===== -->
+<section class="why-partner py-5 bg-light">
+  <div class="container">
+    <h3 class="section-title text-center">Why Partner With Us</h3>
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <h4>National-level growth</h4>
+        <p>Expand your reach and influence across the country with our extensive network.</p>
+      </div>
+      <div class="benefit-item">
+        <h4>Leadership opportunities</h4>
+        <p>Develop and showcase your leadership skills in meaningful roles.</p>
+      </div>
+      <div class="benefit-item">
+        <h4>Income earning options</h4>
+        <p>Access various streams to monetize your partnership efforts.</p>
+      </div>
+      <div class="benefit-item">
+        <h4>Mentorship access</h4>
+        <p>Gain guidance and support from experienced mentors in your field.</p>
+      </div>
+      <div class="benefit-item">
+        <h4>Certificates & recognition</h4>
+        <p>Receive formal acknowledgment for your contributions and achievements.</p>
+      </div>
+      <div class="benefit-item">
+        <h4>Chance to impact thousands</h4>
+        <p>Make a meaningful difference in the lives of thousands through your involvement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Call to Action Section ===== -->
+<section class="cta-section py-5">
+  <div class="container text-center">
+    <p class="cta-text mb-3">You can help change lives — starting today.</p>
+<a href="/conf-bkup/contact" class="btn btn-primary">Join Now</a>
 
 
-				<div class="col-lg-4 col-md-5 sidebar ftco-animate pl-md-5 mt-5 mt-md-0 pt-md-0 pt-5">
-					<div class="sidebar-box bg-light rounded">
-						<form action="#" class="search-form">
-							<div class="form-group">
-								<span class="icon fa fa-search"></span>
-								<input type="text" class="form-control" placeholder="Search...">
-							</div>
-						</form>
-					</div>
-
-					<div class="sidebar-box ftco-animate">
-						<h3>Recent Blog</h3>
-						<div class="block-21 mb-4 d-flex justify-content-between">
-							<a class="blog-img" style="background-image: url(images/image_1.jpg);"></a>
-							<div class="text pl-3">
-								<h3 class="heading"><a href="#">Marketing Strategies for Digital Ecosystem</a></h3>
-								<div class="meta">
-									<div><a href="#"><span class="fa fa-calendar"></span> Oct. 04, 2020</a></div>
-									<div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-								</div>
-							</div>
-						</div>
-						<div class="block-21 mb-4 d-flex justify-content-between">
-							<a class="blog-img" style="background-image: url(images/image_2.jpg);"></a>
-							<div class="text pl-3">
-								<h3 class="heading"><a href="#">Marketing Strategies for Digital Ecosystem</a></h3>
-								<div class="meta">
-									<div><a href="#"><span class="fa fa-calendar"></span> Oct. 04, 2020</a></div>
-									<div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-								</div>
-							</div>
-						</div>
-						<div class="block-21 mb-4 d-flex justify-content-between">
-							<a class="blog-img" style="background-image: url(images/image_3.jpg);"></a>
-							<div class="text pl-3">
-								<h3 class="heading"><a href="#">Marketing Strategies for Digital Ecosystem</a></h3>
-								<div class="meta">
-									<div><a href="#"><span class="fa fa-calendar"></span> Oct. 04, 2020</a></div>
-									<div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="sidebar-box ftco-animate">
-						<h3>Tag Cloud</h3>
-						<div class="tagcloud">
-							<a href="#" class="tag-cloud-link">speak</a>
-							<a href="#" class="tag-cloud-link">conference</a>
-							<a href="#" class="tag-cloud-link">meeting</a>
-							<a href="#" class="tag-cloud-link">seminar</a>
-							<a href="#" class="tag-cloud-link">chat</a>
-							<a href="#" class="tag-cloud-link">talk</a>
-							<a href="#" class="tag-cloud-link">web</a>
-							<a href="#" class="tag-cloud-link">design</a>
-						</div>
-					</div>
-
-					<div class="sidebar-box ftco-animate">
-						<h3>Paragraph</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="ftco-intro img" style="background-image: url(images/bg_3.jpg);">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
-					<h2 class="mb-4">Book Your Tickets Now</h2>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-12">
-					<form action="#" class="registry-form ftco-animate">
-						<div class="row">
-							<div class="col-md">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="First Name">
-								</div>
-							</div>
-							<div class="col-md">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Last Name">
-								</div>
-							</div>
-							<div class="col-md">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Phone">
-								</div>
-							</div>
-							<div class="col-md">
-								<div class="form-group">
-									<div class="form-field">
-										<div class="select-wrap">
-											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
-												<option value="">Select Your Price</option>
-												<option value="">$10</option>
-												<option value="">$20</option>
-												<option value="">$25</option>
-												<option value="">$30</option>
-												<option value="">$50</option>
-												<option value="">$75</option>
-												<option value="">$100</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md">
-								<div class="form-group">
-									<input type="submit" value="Register Now" class="btn btn-primary py-3 px-4">
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-       <?php include 'footer.php'; ?>
+  </div>
+</section>
+ <?php include 'footer.php'; ?>

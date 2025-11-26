@@ -61,7 +61,8 @@
 				<div class="row">
 					<div class="col-md-12">
 
-						<p class="mb-0" style="color: rgba(255,255,255,.5);">Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+						<p class="mb-0" style="color: #fff;">Copyright &copy;
+							<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Visionaries Global Alchemy Private Limited</p>
 					</div>
 				</div>
 			</div>
