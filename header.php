@@ -10,7 +10,7 @@
 				gtag('config', 'G-SEKJ4E9T4H');
 			</script>
 			
-	<title>UPLIFT</title>
+	<title>Business</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -63,16 +63,35 @@
 
     <div class="collapse navbar-collapse" id="ftco-nav">
       <ul class="navbar-nav ml-auto">
+
         <li class="nav-item active"><a href="index" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="about" class="nav-link">About</a></li>
         <li class="nav-item"><a href="retreats" class="nav-link">Retreats</a></li>
         <li class="nav-item"><a href="affirmation-technique" class="nav-link">Affirmation Technique</a></li>
         <li class="nav-item"><a href="communities" class="nav-link">Communities</a></li>
         <li class="nav-item"><a href="opportunities" class="nav-link">Opportunities</a></li>
-        <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
+
+       <li class="nav-item dropdown">
+
+  <!-- Parent Link (Events page) -->
+  <a href="events" class="nav-link">
+    Events
+  </a>
+
+ 
+  <!-- Dropdown Menu -->
+  <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+    <a class="dropdown-item" href="business">Business</a>
+    <a class="dropdown-item" href="affirmation-success">Affirmation Success</a>
+  </div>
+
+</li>
+
         <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+
       </ul>
     </div>
   </div>
 </nav>
+
 	<!-- END nav -->
