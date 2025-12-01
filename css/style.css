@@ -7940,3 +7940,47 @@ textarea:focus {
         padding: 10px;
     }
 }
+/* =============================== Footer ================================ */
+.ftco-footer {
+  background-color: #000 !important;
+  color: #fff !important;
+  gap: 20px;
+}
+
+/* Text + links inside footer */
+.ftco-footer,
+.ftco-footer a,
+.ftco-footer p,
+.ftco-footer ul li,
+.ftco-footer h2,
+.ftco-footer h3,
+.ftco-footer h4,
+.ftco-footer h5,
+.ftco-footer h6 {
+  color: #fff !important;
+}
+
+/* Footer links hover/focus */
+.ftco-footer a:hover,
+.ftco-footer a:focus {
+  color: #fff !important;
+  
+}
+
+/* Social icons inside footer */
+.ftco-footer .ftco-footer-social a {
+  color: #fff !important;
+}
+
+/* Bottom bar (if you use container-fluid bg-black) */
+.container-fluid.bg-black {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.container-fluid.bg-black p {
+  color: #fff !important;
+}
+
+
+

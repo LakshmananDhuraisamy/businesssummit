@@ -4,7 +4,7 @@
 			<div class="row mb-5">
 				<div class="col-sm-12 col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2 logo"><a href="#">Convention</a></h2>
+						<h2 class="ftco-heading-2 logo"><a href="#">Business</a></h2>
 						<p>Far far away, behind the word mountains, far from the countries.</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -17,10 +17,15 @@
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Explore</h2>
 						<ul class="list-unstyled">
+							<li><a href="index"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
 							<li><a href="about"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+							<li><a href="retreats"><span class="fa fa-chevron-right mr-2"></span>Retreats</a></li>
+							<li><a href="affirmation-technique"><span class="fa fa-chevron-right mr-2"></span>Affirmation Technique</a></li>
+							<li><a href="communities"><span class="fa fa-chevron-right mr-2"></span>Communities</a></li>
+							<li><a href="opportunities"><span class="fa fa-chevron-right mr-2"></span>Opportunities</a></li>
+							<li><a href="events"><span class="fa fa-chevron-right mr-2"></span>Events</a></li>
+	
 							<li><a href="contact"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-							<li><a href="speakers"><span class="fa fa-chevron-right mr-2"></span>Speaker</a></li>
-							<li><a href="blog"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
 						</ul>
 					</div>
 				</div>
